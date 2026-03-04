@@ -16,7 +16,7 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
     line-height: 1.6;
-    scroll-behavior: smooth; /* 네비게이션 클릭 시 부드럽게 스크롤 */
+    scroll-behavior: smooth;
 }
 
 header {
@@ -109,15 +109,13 @@ h2 {
 }
 
 .item-image {
-    /* 고정 높이 삭제 */
     overflow: hidden; 
 }
 
 .item-image img {
     width: 100%;
-    height: auto; /* 높이가 자동으로 조절되게 해서 짤리지 않음 */
+    height: auto;
     display: block;
-    /* object-fit은 지워줘 */
 }
 
 .item-info {
@@ -155,6 +153,6 @@ footer {
 }
 
 .btn-link:hover {
-    background-color: #333; /* 마우스 올렸을 때 살짝 옅어지는 효과 */
+    background-color: #333;
     transform: translateY(-2px);
 }
